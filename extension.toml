@@ -9,12 +9,12 @@ repository = "https://github.com/Ouasselhabti/zed-fortran-plus"
 # Both grammars live in this repository; `make bump` updates `rev`.
 [grammars.fortran_fixed]
 repository = "https://github.com/Ouasselhabti/zed-fortran-plus"
-rev = "bd9da3efada3ec622ca8a7f1f3e81ed6aded884f"
+rev = "92809d71e7fa6b96c29d5e82d878292a6346e5ac"
 path = "ts/fortran_fixed"
 
 [grammars.fortran_free]
 repository = "https://github.com/Ouasselhabti/zed-fortran-plus"
-rev = "bd9da3efada3ec622ca8a7f1f3e81ed6aded884f"
+rev = "92809d71e7fa6b96c29d5e82d878292a6346e5ac"
 path = "ts/fortran_free"
 
 [language_servers.fortls]
