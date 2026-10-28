@@ -1,0 +1,12 @@
+# built by Zed when installing the dev extension
+/grammars/
+/target/
+*.wasm
+Cargo.lock
+# tree-sitter build artifacts
+*.so
+ts/*/build/
+
+# local test fixtures and tools, kept out of the published repo
+/test/
+ts/*/test/

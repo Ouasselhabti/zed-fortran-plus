@@ -1,0 +1,16 @@
+{
+  "grammars": [
+    {
+      "name": "fortran_fixed",
+      "camelcase": "FortranFixed",
+      "scope": "source.fortran.fixed",
+      "path": ".",
+      "file-types": []
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Token-level fixed-form Fortran grammar for Zed"
+  }
+}

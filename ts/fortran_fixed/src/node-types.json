@@ -1,0 +1,838 @@
+[
+  {
+    "type": "brackets",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "boz",
+          "named": true
+        },
+        {
+          "type": "brackets",
+          "named": true
+        },
+        {
+          "type": "colon",
+          "named": true
+        },
+        {
+          "type": "comma",
+          "named": true
+        },
+        {
+          "type": "dot_operator",
+          "named": true
+        },
+        {
+          "type": "double_colon",
+          "named": true
+        },
+        {
+          "type": "macro_identifier",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "parens",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "word",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "boz",
+          "named": true
+        },
+        {
+          "type": "brackets",
+          "named": true
+        },
+        {
+          "type": "colon",
+          "named": true
+        },
+        {
+          "type": "comma",
+          "named": true
+        },
+        {
+          "type": "directive_sentinel",
+          "named": true
+        },
+        {
+          "type": "dot_operator",
+          "named": true
+        },
+        {
+          "type": "double_colon",
+          "named": true
+        },
+        {
+          "type": "macro_identifier",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "parens",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "word",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "member",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "field",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "parens",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "boz",
+          "named": true
+        },
+        {
+          "type": "brackets",
+          "named": true
+        },
+        {
+          "type": "colon",
+          "named": true
+        },
+        {
+          "type": "comma",
+          "named": true
+        },
+        {
+          "type": "dot_operator",
+          "named": true
+        },
+        {
+          "type": "double_colon",
+          "named": true
+        },
+        {
+          "type": "macro_identifier",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "parens",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "word",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "directive",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "boz",
+          "named": true
+        },
+        {
+          "type": "brackets",
+          "named": true
+        },
+        {
+          "type": "colon",
+          "named": true
+        },
+        {
+          "type": "comma",
+          "named": true
+        },
+        {
+          "type": "dot_operator",
+          "named": true
+        },
+        {
+          "type": "double_colon",
+          "named": true
+        },
+        {
+          "type": "macro_identifier",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "parens",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "word",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "abstract",
+    "named": false
+  },
+  {
+    "type": "allocatable",
+    "named": false
+  },
+  {
+    "type": "allocate",
+    "named": false
+  },
+  {
+    "type": "associate",
+    "named": false
+  },
+  {
+    "type": "asynchronous",
+    "named": false
+  },
+  {
+    "type": "backspace",
+    "named": false
+  },
+  {
+    "type": "bind",
+    "named": false
+  },
+  {
+    "type": "blockdata",
+    "named": false
+  },
+  {
+    "type": "boz",
+    "named": true
+  },
+  {
+    "type": "byte",
+    "named": false
+  },
+  {
+    "type": "call",
+    "named": false
+  },
+  {
+    "type": "case",
+    "named": false
+  },
+  {
+    "type": "character",
+    "named": false
+  },
+  {
+    "type": "class",
+    "named": false
+  },
+  {
+    "type": "codimension",
+    "named": false
+  },
+  {
+    "type": "colon",
+    "named": true
+  },
+  {
+    "type": "comma",
+    "named": true
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "common",
+    "named": false
+  },
+  {
+    "type": "complex",
+    "named": false
+  },
+  {
+    "type": "conditional_sentinel",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "contains",
+    "named": false
+  },
+  {
+    "type": "contiguous",
+    "named": false
+  },
+  {
+    "type": "continuation",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "continue",
+    "named": false
+  },
+  {
+    "type": "deallocate",
+    "named": false
+  },
+  {
+    "type": "deferred",
+    "named": false
+  },
+  {
+    "type": "dimension",
+    "named": false
+  },
+  {
+    "type": "directive_continuation",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "directive_sentinel",
+    "named": true
+  },
+  {
+    "type": "do",
+    "named": false
+  },
+  {
+    "type": "dot_operator",
+    "named": true
+  },
+  {
+    "type": "double",
+    "named": false
+  },
+  {
+    "type": "double_colon",
+    "named": true
+  },
+  {
+    "type": "doublecomplex",
+    "named": false
+  },
+  {
+    "type": "doubleprecision",
+    "named": false
+  },
+  {
+    "type": "elemental",
+    "named": false
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "elseif",
+    "named": false
+  },
+  {
+    "type": "elsewhere",
+    "named": false
+  },
+  {
+    "type": "end",
+    "named": false
+  },
+  {
+    "type": "endassociate",
+    "named": false
+  },
+  {
+    "type": "endblock",
+    "named": false
+  },
+  {
+    "type": "endblockdata",
+    "named": false
+  },
+  {
+    "type": "endcritical",
+    "named": false
+  },
+  {
+    "type": "enddo",
+    "named": false
+  },
+  {
+    "type": "endenum",
+    "named": false
+  },
+  {
+    "type": "endfile",
+    "named": false
+  },
+  {
+    "type": "endforall",
+    "named": false
+  },
+  {
+    "type": "endfunction",
+    "named": false
+  },
+  {
+    "type": "endif",
+    "named": false
+  },
+  {
+    "type": "endinterface",
+    "named": false
+  },
+  {
+    "type": "endmodule",
+    "named": false
+  },
+  {
+    "type": "endprocedure",
+    "named": false
+  },
+  {
+    "type": "endprogram",
+    "named": false
+  },
+  {
+    "type": "endselect",
+    "named": false
+  },
+  {
+    "type": "endsubmodule",
+    "named": false
+  },
+  {
+    "type": "endsubroutine",
+    "named": false
+  },
+  {
+    "type": "endteam",
+    "named": false
+  },
+  {
+    "type": "endtype",
+    "named": false
+  },
+  {
+    "type": "endwhere",
+    "named": false
+  },
+  {
+    "type": "enum",
+    "named": false
+  },
+  {
+    "type": "enumerator",
+    "named": false
+  },
+  {
+    "type": "equivalence",
+    "named": false
+  },
+  {
+    "type": "extends",
+    "named": false
+  },
+  {
+    "type": "external",
+    "named": false
+  },
+  {
+    "type": "field",
+    "named": true
+  },
+  {
+    "type": "forall",
+    "named": false
+  },
+  {
+    "type": "function",
+    "named": false
+  },
+  {
+    "type": "generic",
+    "named": false
+  },
+  {
+    "type": "go",
+    "named": false
+  },
+  {
+    "type": "goto",
+    "named": false
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "implicit",
+    "named": false
+  },
+  {
+    "type": "import",
+    "named": false
+  },
+  {
+    "type": "impure",
+    "named": false
+  },
+  {
+    "type": "include",
+    "named": false
+  },
+  {
+    "type": "inquire",
+    "named": false
+  },
+  {
+    "type": "integer",
+    "named": false
+  },
+  {
+    "type": "intent",
+    "named": false
+  },
+  {
+    "type": "interface",
+    "named": false
+  },
+  {
+    "type": "intrinsic",
+    "named": false
+  },
+  {
+    "type": "label",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "logical",
+    "named": false
+  },
+  {
+    "type": "macro_identifier",
+    "named": true
+  },
+  {
+    "type": "module",
+    "named": false
+  },
+  {
+    "type": "namelist",
+    "named": false
+  },
+  {
+    "type": "non_intrinsic",
+    "named": false
+  },
+  {
+    "type": "non_overridable",
+    "named": false
+  },
+  {
+    "type": "non_recursive",
+    "named": false
+  },
+  {
+    "type": "nopass",
+    "named": false
+  },
+  {
+    "type": "nullify",
+    "named": false
+  },
+  {
+    "type": "number",
+    "named": true
+  },
+  {
+    "type": "operator",
+    "named": true
+  },
+  {
+    "type": "optional",
+    "named": false
+  },
+  {
+    "type": "parameter",
+    "named": false
+  },
+  {
+    "type": "pass",
+    "named": false
+  },
+  {
+    "type": "pointer",
+    "named": false
+  },
+  {
+    "type": "precision",
+    "named": false
+  },
+  {
+    "type": "preproc_directive",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "preproc_identifier",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "preproc_number",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "preproc_string",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "private",
+    "named": false
+  },
+  {
+    "type": "procedure",
+    "named": false
+  },
+  {
+    "type": "program",
+    "named": false
+  },
+  {
+    "type": "protected",
+    "named": false
+  },
+  {
+    "type": "public",
+    "named": false
+  },
+  {
+    "type": "pure",
+    "named": false
+  },
+  {
+    "type": "real",
+    "named": false
+  },
+  {
+    "type": "recursive",
+    "named": false
+  },
+  {
+    "type": "return",
+    "named": false
+  },
+  {
+    "type": "rewind",
+    "named": false
+  },
+  {
+    "type": "select",
+    "named": false
+  },
+  {
+    "type": "selectcase",
+    "named": false
+  },
+  {
+    "type": "selecttype",
+    "named": false
+  },
+  {
+    "type": "sequence",
+    "named": false
+  },
+  {
+    "type": "stop",
+    "named": false
+  },
+  {
+    "type": "string",
+    "named": true
+  },
+  {
+    "type": "submodule",
+    "named": false
+  },
+  {
+    "type": "subroutine",
+    "named": false
+  },
+  {
+    "type": "sync",
+    "named": false
+  },
+  {
+    "type": "then",
+    "named": false
+  },
+  {
+    "type": "type",
+    "named": false
+  },
+  {
+    "type": "use",
+    "named": false
+  },
+  {
+    "type": "volatile",
+    "named": false
+  },
+  {
+    "type": "where",
+    "named": false
+  },
+  {
+    "type": "word",
+    "named": true
+  }
+]

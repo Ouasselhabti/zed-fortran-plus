@@ -1,0 +1,26 @@
+id = "fortran-plus"
+name = "Fortran Plus"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ouassel El Habti <ouassel.elhabti@gmail.com>"]
+description = "Fixed- and free-form Fortran: VS Code-style highlighting, cpp/OpenMP aware, fortls"
+repository = "https://github.com/Ouasselhabti/zed-fortran-plus"
+
+# Both grammars live in this repository; `make bump` updates `rev`.
+[grammars.fortran_fixed]
+repository = "https://github.com/Ouasselhabti/zed-fortran-plus"
+rev = "bd9da3efada3ec622ca8a7f1f3e81ed6aded884f"
+path = "ts/fortran_fixed"
+
+[grammars.fortran_free]
+repository = "https://github.com/Ouasselhabti/zed-fortran-plus"
+rev = "bd9da3efada3ec622ca8a7f1f3e81ed6aded884f"
+path = "ts/fortran_free"
+
+[language_servers.fortls]
+name = "fortls"
+languages = ["Fortran", "Fortran Fixed Form"]
+
+[language_servers.fortls.language_ids]
+"Fortran" = "fortran"
+"Fortran Fixed Form" = "fortran"

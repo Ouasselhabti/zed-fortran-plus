@@ -1,0 +1,16 @@
+{
+  "grammars": [
+    {
+      "name": "fortran_free",
+      "camelcase": "FortranFree",
+      "scope": "source.fortran.free",
+      "path": ".",
+      "file-types": []
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Token-level free-form Fortran grammar for Zed"
+  }
+}

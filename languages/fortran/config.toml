@@ -1,0 +1,16 @@
+name = "Fortran"
+grammar = "fortran_free"
+code_fence_block_name = "fortran"
+path_suffixes = ["f90", "f95", "f03", "f08", "f18", "F90", "F95", "F03", "F08", "F18"]
+line_comments = ["! ", "!> ", "!! "]
+autoclose_before = ";:.,=}])>"
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+    { start = "'", end = "'", close = true, newline = false, not_in = ["string", "comment"] },
+]
+# Indent after block openers, outdent block closers (an optional statement
+# label or construct name may come first).
+increase_indent_pattern = "(?i)^\\s*(\\d+\\s+)?(\\w+\\s*:\\s*)?((else\\s*)?if\\b.*\\bthen\\s*(!.*)?$|else\\b|do\\b|select\\s*(case|type|rank)\\b|case\\b|rank\\b|(type|class)\\s+is\\b|class\\s+default\\b|associate\\b|critical\\b|block\\s*(!.*)?$|(abstract\\s+)?interface\\b|((pure|impure|elemental|recursive|non_recursive|module)\\s+)*(subroutine|function)\\b|module\\s+\\w+\\s*(!.*)?$|submodule\\b|program\\b|type(\\s*,.*::|\\s+|\\s*::)\\s*\\w+\\s*(!.*)?$|contains\\b)"
+decrease_indent_pattern = "(?i)^\\s*(\\d+\\s+)?(end(\\s*(do|if|select|where|forall|associate|block|critical|subroutine|function|module|submodule|program|interface|type|enum|procedure|team))?\\b|else\\b|elseif\\b|elsewhere\\b|case\\b|rank\\b|(type|class)\\s+is\\b|class\\s+default\\b|contains\\b)"
